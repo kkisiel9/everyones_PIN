@@ -1,8 +1,9 @@
-# Byte-compiled / optimized / DLL files
+.gitignore# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
+.DS_STORE
+.idea/
 # C extensions
 *.so
 
