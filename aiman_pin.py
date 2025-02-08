@@ -34,29 +34,3 @@ else:
 # print is a function
 # Final message after three incorrect attempts
 
-
-
-
-
-# # another version of the exercise - unable to incorporate the display of 'attempts left' as the block of code loops - prefer the first version
-#
-# # # getpass is a module that allows you get username and passwords
-# import getpass
-# #
-# # # the pin function is used to add the credit card's pin
-# # # one variable - in this case pin is associated with string '1234'
-# pin = '1234'
-# #
-# # # using 'for' conditional statement - repeats block of code a certain number of times
-# # # range outlines the number of times the code loops for - range creates an iterable sequence (1,2,3) - in this case, the number of attempts allowed
-# for attempts in range(3):
-#     # getpass.getpass allows us to mask the password input
-#     supplied_pin = getpass.getpass('Enter your pin: ')
-# # equality operator - between both variables
-#     if supplied_pin == pin:
-#         print("PIN accepted!")
-#         break
-#     else:
-#         print('Incorrect PIN, please try again')
-# else:
-#     print("End of attempts, Goodbye.")
